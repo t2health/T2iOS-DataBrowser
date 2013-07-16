@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001E6BD21796006600420B57 /* default-schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 001E6BD11796006600420B57 /* default-schema.json */; };
 		0091C4B4177CF38100B74437 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091C4B3177CF38100B74437 /* UIKit.framework */; };
 		0091C4B6177CF38100B74437 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091C4B5177CF38100B74437 /* Foundation.framework */; };
 		0091C4B8177CF38100B74437 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091C4B7177CF38100B74437 /* CoreGraphics.framework */; };
@@ -85,7 +86,6 @@
 		0091C76C177CF61D00B74437 /* NSMutableURLRequest+JRRequestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0091C5CD177CF61C00B74437 /* NSMutableURLRequest+JRRequestUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0091C7B0177CF61D00B74437 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0091C612177CF61C00B74437 /* .gitignore */; };
 		0091C7B2177CF61D00B74437 /* CaptureSchemaParser.pl in Resources */ = {isa = PBXBuildFile; fileRef = 0091C613177CF61C00B74437 /* CaptureSchemaParser.pl */; };
-		0091C7B4177CF61D00B74437 /* default-schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 0091C614177CF61C00B74437 /* default-schema.json */; };
 		0091C7B6177CF61D00B74437 /* ObjCMethodParts.pl in Resources */ = {isa = PBXBuildFile; fileRef = 0091C615177CF61C00B74437 /* ObjCMethodParts.pl */; };
 		0091C7B8177CF61D00B74437 /* regen_demo.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0091C616177CF61C00B74437 /* regen_demo.sh */; };
 		0091C7BA177CF61D00B74437 /* regen_test.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0091C617177CF61C00B74437 /* regen_test.sh */; };
@@ -313,6 +313,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		001E6BD11796006600420B57 /* default-schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "default-schema.json"; sourceTree = "<group>"; };
 		0091C4B0177CF38100B74437 /* T2iOS-DataBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "T2iOS-DataBrowser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0091C4B3177CF38100B74437 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0091C4B5177CF38100B74437 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -442,7 +443,6 @@
 		0091C5CD177CF61C00B74437 /* NSMutableURLRequest+JRRequestUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+JRRequestUtils.m"; sourceTree = "<group>"; };
 		0091C612177CF61C00B74437 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		0091C613177CF61C00B74437 /* CaptureSchemaParser.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = CaptureSchemaParser.pl; sourceTree = "<group>"; };
-		0091C614177CF61C00B74437 /* default-schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "default-schema.json"; sourceTree = "<group>"; };
 		0091C615177CF61C00B74437 /* ObjCMethodParts.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = ObjCMethodParts.pl; sourceTree = "<group>"; };
 		0091C616177CF61C00B74437 /* regen_demo.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = regen_demo.sh; sourceTree = "<group>"; };
 		0091C617177CF61C00B74437 /* regen_test.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = regen_test.sh; sourceTree = "<group>"; };
@@ -1064,9 +1064,9 @@
 		0091C611177CF61C00B74437 /* Script */ = {
 			isa = PBXGroup;
 			children = (
+				001E6BD11796006600420B57 /* default-schema.json */,
 				0091C612177CF61C00B74437 /* .gitignore */,
 				0091C613177CF61C00B74437 /* CaptureSchemaParser.pl */,
-				0091C614177CF61C00B74437 /* default-schema.json */,
 				0091C615177CF61C00B74437 /* ObjCMethodParts.pl */,
 				0091C616177CF61C00B74437 /* regen_demo.sh */,
 				0091C617177CF61C00B74437 /* regen_test.sh */,
@@ -1588,7 +1588,6 @@
 				0091C754177CF61D00B74437 /* .gitignore in Resources */,
 				0091C7B0177CF61D00B74437 /* .gitignore in Resources */,
 				0091C7B2177CF61D00B74437 /* CaptureSchemaParser.pl in Resources */,
-				0091C7B4177CF61D00B74437 /* default-schema.json in Resources */,
 				0091C7B6177CF61D00B74437 /* ObjCMethodParts.pl in Resources */,
 				0091C7B8177CF61D00B74437 /* regen_demo.sh in Resources */,
 				0091C7BA177CF61D00B74437 /* regen_test.sh in Resources */,
@@ -1759,6 +1758,7 @@
 				0091C922177CF61D00B74437 /* JRPublishActivityController.xib in Resources */,
 				0091C924177CF61D00B74437 /* JRUserLandingController.xib in Resources */,
 				0091C926177CF61D00B74437 /* JRWebViewController.xib in Resources */,
+				001E6BD21796006600420B57 /* default-schema.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
