@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>717EC414-D8A7-4246-951B-1F4366457EAB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>T2iOS-DataBrowser</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>38292F5A-B586-4850-AFDB-3DD04F9FC9F7</key>
+		<string>https://github.com/t2health/T2iOS-DataBrowser.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>T2iOS-DataBrowser.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>38292F5A-B586-4850-AFDB-3DD04F9FC9F7</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/t2health/T2iOS-DataBrowser.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>38292F5A-B586-4850-AFDB-3DD04F9FC9F7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>38292F5A-B586-4850-AFDB-3DD04F9FC9F7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>T2iOS-DataBrowser</string>
+		</dict>
+	</array>
+</dict>
+</plist>
